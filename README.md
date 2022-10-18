@@ -1,24 +1,10 @@
-# README
+# Setup
+```
+bundle install
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+npm install --prefix client-side
 
-Things you may want to cover:
+rake db:create db:migrate db:seed
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+foreman start
+```
